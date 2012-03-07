@@ -1,0 +1,1 @@
+# JMS consumer example
