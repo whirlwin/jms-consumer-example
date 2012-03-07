@@ -7,7 +7,8 @@
 
 ## Instuctions
 
-*1*
+1
+
 Clone this repository to your computer.
 
 *2*
