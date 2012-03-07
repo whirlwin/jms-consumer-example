@@ -40,6 +40,7 @@ Locate and click `OK`.
 
 ## What's next?
 
-Head over to [https://github.com/whirlwin/jms-producer-example](my other
-repository) to check out how to set up an application (producer) that
+Head over to [my other repository]
+(https://github.com/whirlwin/jms-producer-example)
+to check out how to set up an application (producer) that
 tests the consumer.
