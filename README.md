@@ -7,40 +7,31 @@
 
 ## Instuctions
 
-1
+1. Clone this repository to your computer.
 
-Clone this repository to your computer.
+2. Import as a Maven project into Eclipse.
 
-*2*
-Import as a Maven project into Eclipse.
+3. Run `mvn install`.
 
-*3*
-Run `mvn install`.
+4. Start GlassFish: `asadmin start-domain`
 
-*4*
-Start GlassFish: `asadmin start-domain`
+5. Open `localhost:4848`.
 
-*5*
-Open `localhost:4848`.
-
-*6*
-Go to:
+6. Go to:
 `Resources` -> `JMS Resources` -> `Connection Factories`.
 Select `New`.
 Set `Pool Name` = `jms/QueueConnectionFactory`.
 Set `Resource Type` = `javax.jms.QueueConnectionFactory`.
 Locate and click `OK`.
 
-*7*
-Go to:
+7. Go to:
 `Resources` -> `JMS Resources` -> `Destination Resources`.
 Select `New`.
 Set `JNDI Name` = `jms/JMSConsumer`.
 Set `Physical Destination Name` = `JMSConsumer`.
 Locate and click `OK`
 
-*8*
-Go to:
+8. Go to:
 `Applications`.
 Select `Deploy...`.
 Select `Choose File`
